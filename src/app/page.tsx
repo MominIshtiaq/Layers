@@ -1,6 +1,7 @@
 import Hero from "@/sections/Hero";
 import Faqs from "@/sections/Faqs";
 import Navbar from "@/sections/Navbar";
+import Footer from "@/sections/Footer";
 import Features from "@/sections/Features";
 import LogoTicker from "@/sections/LogoTicker";
 import Introduction from "@/sections/Introduction";
@@ -18,6 +19,7 @@ export default function Home() {
             <Integrations />
             <Faqs />
             <CallToAction />
+            <Footer />
         </>
     );
 }
